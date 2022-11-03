@@ -10,11 +10,11 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2022_11_03_073707) do
+ActiveRecord::Schema.define(version: 2022_11_03_085304) do
 
   create_table "articles", force: :cascade do |t|
     t.string "title"
-    t.integer "margazine_id"
+    t.integer "magazine_id"
     t.integer "author_id"
   end
 

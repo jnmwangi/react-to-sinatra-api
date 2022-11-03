@@ -3,7 +3,7 @@ require "sinatra/activerecord/rake"
 
 desc "Run our sinatra server"
 task :myserver do
-    exec "bundle exec rerun -b 'rackup config.ru'"
+    exec "bundle exec rerun -b 'bundle exec rackup config.ru'"
 end
 
 desc "Console"
