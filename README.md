@@ -9,4 +9,6 @@ To set it up in your developer environment run:-
 3. `bundle exec rake myserver` to run the server
 
 ## Feature Development
-In the near feature, we will include the react application that consumes this API
+In the near feature, we will:-
+1. build endpoints for other HTTPVerbs:- POST, PATCH/PUT, DESTROY
+2. include the react application that consumes this API
