@@ -7,3 +7,6 @@ To set it up in your developer environment run:-
 2. `bundle exec rake db:environment:set` to create the database file
 2. `bundle exec rake db:migrate` to create all the tables and the database updates
 3. `bundle exec rake myserver` to run the server for the database
+
+## Feature Development
+In the near feature, we will include the react application that consumes this API
